@@ -1,0 +1,65 @@
+p.title {
+background-color: #550000;
+color: #ffffff;
+font-weight:bold;
+margin:5px;
+padding:5px;
+}
+
+#coolmenu{
+border: 1px solid gray; /*—тиль рамки #A72E37 */
+border-bottom-width: 0;
+width: 93%; /*Ўирина меню */
+background-color: #f6f6f6;  /*‘оновый цвет €чейки*/
+margin:5px; /*Ўирина отступов*/
+}
+
+* html #coolmenu{ 
+width: 150px;/*Ўирина меню дл€ Internet Explorer*/
+}
+
+#coolmenu a{
+font: bold 13px Verdana; /*Ўрифт текста*/
+padding: 2px; /*¬нутренний отсутп текста ссылки от краев €чейки*/
+padding-left: 4px;/*¬нутренний отсутп текста ссылки от левого кра€ €чейки*/
+display: block;
+width: 100%; /*Ўирина €чейки*/
+color: #000000;  /*÷вет текста*/
+text-decoration: none; /*ѕодчеркивание у ссылок - нет*/
+border-bottom: 1px solid gray;
+}
+
+html>body #coolmenu a{ 
+width: auto;
+}
+
+#coolmenu a:hover{
+background-color: #cccccc; /*‘оновый цвет €чейки при наведение курсора*/
+color: #000000;  /*÷вет текста при наведении курсора*/
+}
+
+.text
+{
+margin-left:5px;
+margin-right:5px;
+}
+
+#coolmenu p{
+font: bold 13px Verdana; /*Ўрифт текста*/
+padding: 2px; /*¬нутренний отсутп текста ссылки от краев €чейки*/
+padding-left: 4px;/*¬нутренний отсутп текста ссылки от левого кра€ €чейки*/
+display: block;
+width: 100%; /*Ўирина €чейки*/
+color: #000000;  /*÷вет текста*/
+text-decoration: none; /*ѕодчеркивание у ссылок - нет*/
+border-bottom: 1px solid gray;
+}
+
+html>body #coolmenu p{ 
+width: auto;
+}
+
+#coolmenu p:hover{
+background-color: #cccccc; /*‘оновый цвет €чейки при наведение курсора*/
+color: #000000;  /*÷вет текста при наведении курсора*/
+}
